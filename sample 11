@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Xfinentia Financial Services - Your Trusted Partner for Growth and Innovation">
+    <meta name="keywords" content="Financial Services, Investments, Wealth Management, Financial Planning, Xfinentia">
+    <title>Xfinentia Financial Services</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #1f3a7a; /* Navy blue */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        header nav ul li {
+            margin: 0 30px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://via.placeholder.com/1600x600/1f3a7a/ffffff?text=Xfinentia+Financial+Growth') no-repeat center center/cover;
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+
+        .hero button {
+            padding: 15px 30px;
+            background-color: #f39c12;
+            border: none;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .hero button:hover {
+            background-color: #e67e22;
+        }
+
+        /* About Section */
+        #about {
+            background-color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #about h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #1f3a7a;
+        }
+
+        #about p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        /* Services Section */
+        #services {
+            background-color: #ecf0f1;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #services h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #1f3a7a;
+        }
+
+        #services .service {
+            display: inline-block;
+            width: 30%;
+            margin: 0 15px;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        #services .service:hover {
+            transform: translateY(-10px);
+        }
+
+        #services .service h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #f39c12;
+        }
+
+        #services .service p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Contact Section */
+        #contact {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #1f3a7a;
+            color: #fff;
+        }
+
+        #contact h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        #contact p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        #contact form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #34495e;
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        #contact form input,
+        #contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        #contact form button {
+            padding: 15px 30px;
+            background-color: #f39c12;
+            border: none;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #contact form button:hover {
+            background-color: #e67e22;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #34495e;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Xfinentia Financial Services</h1>
+            <p>Helping you achieve financial growth through expert advice and innovative solutions.</p>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Xfinentia Financial Services is committed to helping individuals and businesses secure their financial future. With expertise in investment strategies, wealth management, and financial planning, we provide personalized services tailored to meet your unique needs.</p>
+        <p>Our mission is to guide our clients towards financial stability and growth with a focus on innovation and trust.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Investment Planning</h3>
+            <p>Our investment services are designed to help you grow your wealth through strategic asset allocation and market analysis.</p>
+        </div>
+        <div class="service">
+            <h3>Wealth Management</h3>
+            <p>We offer comprehensive wealth management solutions to protect and grow your financial assets, ensuring long-term success.</p>
+        </div>
+        <div class="service">
+            <h3>Financial Consulting</h3>
+            <p>Get expert advice on financial planning, retirement strategies, and tax management to secure your financial future.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to start your financial journey? Get in touch with us today!</p>
+        <form action="/submit" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Xfinentia Financial Services. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
